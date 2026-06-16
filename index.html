@@ -1,0 +1,407 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>애나이더 아쿠아리움 — ANAIDHER AQUARIUM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Space+Grotesk:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ===================== HEADER ===================== -->
+    <header id="site-header">
+        <div class="header-inner">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="애나이더 아쿠아리움">
+                </a>
+            </div>
+            <div class="menu_bg"></div>
+            <nav class="menu">
+                <ul class="navi">
+                    <li>
+                        <a href="#">아쿠아리움</a>
+                        <ul class="submenu">
+                            <li><a href="#">비전 &amp; 철학</a></li>
+                            <li><a href="#">연구 시설</a></li>
+                            <li><a href="#">찾아오시는 길</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">전시관</a>
+                        <ul class="submenu">
+                            <li><a href="#">심해 탐험관</a></li>
+                            <li><a href="#">해파리 홀</a></li>
+                            <li><a href="#">오픈오션</a></li>
+                            <li><a href="#">생명공학관</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">체험</a>
+                        <ul class="submenu">
+                            <li><a href="#">심해 다이빙</a></li>
+                            <li><a href="#">야간 투어</a></li>
+                            <li><a href="#">연구원 동행</a></li>
+                            <li><a href="#">단체 예약</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">연구 &amp; 과학</a>
+                        <ul class="submenu">
+                            <li><a href="#">특허 기술</a></li>
+                            <li><a href="#">신종 생명체</a></li>
+                            <li><a href="#">자료실</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">소식</a>
+                        <ul class="submenu">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">뉴스레터</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#" class="header-ticket">티켓 예매</a>
+        </div>
+    </header>
+
+    <!-- ===================== HERO CAROUSEL ===================== -->
+    <section class="hero">
+        <div class="slidelist">
+            <ul>
+                <li class="slide active">
+                    <img src="images/diving.png" alt="심해 탐험">
+                    <div class="slide-caption">
+                        <span class="slide-tag">DEEP SEA DIVING — ZONE A</span>
+                        <h1>심해 <em>11,000m</em>까지,<br>직접 들어간다</h1>
+                        <p>세계 유일의 실제 심해 탐험 수조.<br>상어와 함께 유영하는 그 경험.</p>
+                        <a href="#" class="slide-cta">탐험 예약하기</a>
+                    </div>
+                </li>
+                <li class="slide">
+                    <img src="images/cosanho.png" alt="산호초 복원">
+                    <div class="slide-caption">
+                        <span class="slide-tag">CORAL REEF RESTORATION LAB — ZONE E</span>
+                        <h1>죽어가던 산호초를<br><em>우리가 되살렸다</em></h1>
+                        <p>특허 유전자 재생 기술로 복원한<br>살아있는 산호초 3,200㎡</p>
+                        <a href="#" class="slide-cta">더 알아보기</a>
+                    </div>
+                </li>
+                <li class="slide">
+                    <img src="images/jellyfish.png" alt="해파리 홀">
+                    <div class="slide-caption">
+                        <span class="slide-tag">BIOLUMINESCENT JELLYFISH HALL — ZONE B</span>
+                        <h1>발광하는 생명체들의<br><em>심야 퍼레이드</em></h1>
+                        <p>발광 해양생물 87종과 함께하는<br>세상에 없던 야간 전시</p>
+                        <a href="#" class="slide-cta">야간 투어 신청</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="slide-ui">
+            <button class="slide-prev" aria-label="이전">&#10094;</button>
+            <div class="slide-dots">
+                <button class="dot active" data-idx="0"></button>
+                <button class="dot" data-idx="1"></button>
+                <button class="dot" data-idx="2"></button>
+            </div>
+            <button class="slide-next" aria-label="다음">&#10095;</button>
+        </div>
+        <div class="hero-scroll-hint" aria-hidden="true"><span>SCROLL</span></div>
+    </section>
+
+    <!-- ===================== IDENTITY ===================== -->
+    <section class="intro">
+        <div class="intro-inner">
+            <span class="section-eyebrow" data-aos="fade-up">ANAIDHER AQUARIUM</span>
+            <h2 data-aos="fade-up" data-aos-delay="80">바다는 아직<br>다 밝혀지지 않았다</h2>
+            <p data-aos="fade-up" data-aos-delay="160">
+                애나이더 아쿠아리움은 단순한 관람 시설이 아닙니다.<br>
+                해양생명과학의 경계를 허무는, 살아있는 연구소.<br>
+                수백 개의 독점 특허와 유전공학으로 지구상 어디서도<br>
+                볼 수 없는 생명체들이 이곳에서 숨쉬고 있습니다.
+            </p>
+        </div>
+        <div class="bubbles" aria-hidden="true">
+            <i></i><i></i><i></i><i></i><i></i>
+            <i></i><i></i><i></i><i></i><i></i>
+        </div>
+    </section>
+
+    <!-- ===================== STATS ===================== -->
+    <section class="stats">
+        <div class="stats-inner">
+            <div class="stat-item" data-aos="fade-up">
+                <div class="stat-row">
+                    <span class="stat-num" data-target="847">0</span>
+                    <span class="stat-unit">+</span>
+                </div>
+                <p>보유 특허 기술</p>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="stat-row">
+                    <span class="stat-num" data-target="3200">0</span>
+                    <span class="stat-unit">종</span>
+                </div>
+                <p>전시 해양생물</p>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="stat-row">
+                    <span class="stat-num" data-target="47">0</span>
+                    <span class="stat-unit">종</span>
+                </div>
+                <p>자체 개발 신종</p>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="stat-row">
+                    <span class="stat-num" data-target="11000">0</span>
+                    <span class="stat-unit">m</span>
+                </div>
+                <p>최대 탐험 수심</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== TICKER ===================== -->
+    <div class="ticker" aria-hidden="true">
+        <div class="ticker-track">
+            <span>심해 탐험관</span><span class="sep">·</span>
+            <span>해파리 홀</span><span class="sep">·</span>
+            <span>오픈오션</span><span class="sep">·</span>
+            <span>생명공학관</span><span class="sep">·</span>
+            <span>산호초 정원</span><span class="sep">·</span>
+            <span>야간 발광 투어</span><span class="sep">·</span>
+            <span>심해 다이빙 체험</span><span class="sep">·</span>
+            <span>연구원 동행 투어</span><span class="sep">·</span>
+            <span>심해 탐험관</span><span class="sep">·</span>
+            <span>해파리 홀</span><span class="sep">·</span>
+            <span>오픈오션</span><span class="sep">·</span>
+            <span>생명공학관</span><span class="sep">·</span>
+            <span>산호초 정원</span><span class="sep">·</span>
+            <span>야간 발광 투어</span><span class="sep">·</span>
+            <span>심해 다이빙 체험</span><span class="sep">·</span>
+            <span>연구원 동행 투어</span><span class="sep">·</span>
+        </div>
+    </div>
+
+    <!-- ===================== EXHIBITIONS ===================== -->
+    <section class="exhibitions">
+        <div class="page-inner">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-eyebrow">EXHIBITIONS</span>
+                <h2>전시 구역</h2>
+            </div>
+            <div class="ex-grid">
+                <!-- 상단 행: featured(50%) + 2개(각 25%) -->
+                <div class="ex-row-top">
+                    <article class="ex-card ex-featured" data-aos="fade-right">
+                        <img src="images/deep sea shark.png" alt="심해 탐험관">
+                        <div class="ex-info">
+                            <span class="ex-zone">ZONE A</span>
+                            <h3>심해 탐험관</h3>
+                            <p>실제 수압 환경을 재현한 세계 최초의 개방형 심해 수조. 전장 80m, 수심 34m.</p>
+                            <a href="#" class="ex-link">입장하기 →</a>
+                        </div>
+                    </article>
+                    <article class="ex-card" data-aos="fade-up" data-aos-delay="100">
+                        <img src="images/jellyfish.png" alt="해파리 홀">
+                        <div class="ex-info">
+                            <span class="ex-zone">ZONE B</span>
+                            <h3>해파리 홀</h3>
+                            <p>발광 해파리 87종이 유영하는 몰입형 암실 전시</p>
+                            <a href="#" class="ex-link">입장하기 →</a>
+                        </div>
+                    </article>
+                    <article class="ex-card" data-aos="fade-up" data-aos-delay="200">
+                        <img src="images/sea.png" alt="오픈오션">
+                        <div class="ex-info">
+                            <span class="ex-zone">ZONE C</span>
+                            <h3>오픈오션</h3>
+                            <p>5억 리터 대형 수조. 상어·가오리·참치가 공존하는 생태계</p>
+                            <a href="#" class="ex-link">입장하기 →</a>
+                        </div>
+                    </article>
+                </div>
+                <!-- 하단 행: 작은2개(각 25%) + wide(50%) -->
+                <div class="ex-row-bottom">
+                    <article class="ex-card" data-aos="fade-up" data-aos-delay="100">
+                        <img src="images/Squid and shark.png" alt="생명공학관">
+                        <div class="ex-info">
+                            <span class="ex-zone">ZONE D</span>
+                            <h3>생명공학관</h3>
+                            <p>유전자 재설계로 탄생한 47종의 신종 해양생물 세계 최초 공개</p>
+                            <a href="#" class="ex-link">입장하기 →</a>
+                        </div>
+                    </article>
+                    <article class="ex-card" data-aos="fade-up" data-aos-delay="200">
+                        <img src="images/koi.png" alt="열대어관">
+                        <div class="ex-info">
+                            <span class="ex-zone">ZONE F</span>
+                            <h3>열대어관</h3>
+                            <p>형형색색의 열대 어종 200여 종이 만들어내는 살아있는 수중 정원</p>
+                            <a href="#" class="ex-link">입장하기 →</a>
+                        </div>
+                    </article>
+                    <article class="ex-card ex-wide" data-aos="fade-left">
+                        <img src="images/starfish.png" alt="산호초 정원">
+                        <div class="ex-info">
+                            <span class="ex-zone">ZONE E</span>
+                            <h3>산호초 정원</h3>
+                            <p>멸종 위기 산호를 특허 복원 기술로 재생한 3,200㎡의 실내 생태원. 세계 최대.</p>
+                            <a href="#" class="ex-link">입장하기 →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== PROGRAMS ===================== -->
+    <section class="programs">
+        <div class="page-inner">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-eyebrow">EXPERIENCE</span>
+                <h2>체험 프로그램</h2>
+            </div>
+            <div class="prog-grid">
+                <div class="prog-card" data-aos="fade-up">
+                    <div class="prog-num">01</div>
+                    <h3>심해 다이빙 투어</h3>
+                    <p>전문 다이버와 함께 오픈오션 수조 내부를 직접 유영. 참여형 해양 체험의 끝판왕.</p>
+                    <span class="prog-badge">인기 1위</span>
+                </div>
+                <div class="prog-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="prog-num">02</div>
+                    <h3>야간 발광 투어</h3>
+                    <p>소등 후 발광 생물들만이 만들어내는 빛의 전시. 매일 저녁 20:00, 선착순 30명.</p>
+                    <span class="prog-badge">신규</span>
+                </div>
+                <div class="prog-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="prog-num">03</div>
+                    <h3>연구원 동행 투어</h3>
+                    <p>현직 해양생명과학 연구원이 직접 안내하는 생명공학관 투어. 사전 예약 필수.</p>
+                </div>
+                <div class="prog-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="prog-num">04</div>
+                    <h3>먹이주기 체험</h3>
+                    <p>상어, 가오리, 대형 어류에게 직접 먹이를 주는 특별 체험. 매일 13:00 / 16:00.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== NOTICE + GALLERY + BANNER ===================== -->
+    <section class="contents-wrap">
+        <div class="contents">
+            <div class="notice" data-aos="fade-up">
+                <div class="tab">
+                    <h4>공지사항</h4>
+                    <a href="#" class="more-btn">더보기 +</a>
+                </div>
+                <ul>
+                    <li><a href="#"><span class="ntxt">2026 여름 특별전 <em>"빛나는 심해"</em> 개막 안내</span><span class="ndate">2026.06.01</span></a></li>
+                    <li><a href="#"><span class="ntxt">7월 먹이주기 체험 예약 오픈 안내</span><span class="ndate">2026.05.28</span></a></li>
+                    <li><a href="#"><span class="ntxt">생명공학관 신종 전시 추가 안내</span><span class="ndate">2026.05.15</span></a></li>
+                    <li><a href="#"><span class="ntxt">아쿠아리스트와 함께하는 수중 토크쇼</span><span class="ndate">2026.05.02</span></a></li>
+                </ul>
+            </div>
+            <div class="gallery" data-aos="fade-up" data-aos-delay="100">
+                <div class="tab">
+                    <h4>포토 갤러리</h4>
+                    <a href="#" class="more-btn">더보기 +</a>
+                </div>
+                <ul>
+                    <li><a href="#"><img src="images/koi.png" alt="열대어관"><span class="gal-label">열대어관</span></a></li>
+                    <li><a href="#"><img src="images/sea.png" alt="산호초관"><span class="gal-label">산호초관</span></a></li>
+                    <li><a href="#"><img src="images/Squid and shark.png" alt="심해어관"><span class="gal-label">심해어관</span></a></li>
+                </ul>
+            </div>
+            <div class="banner" data-aos="fade-up" data-aos-delay="200">
+                <a href="#">
+                    <img src="images/starfish.png" alt="2026 여름 특별전">
+                    <div class="banner-overlay">
+                        <span class="banner-tag">SPECIAL EXHIBITION</span>
+                        <p class="banner-title">2026 빛나는 심해展</p>
+                        <p class="banner-period">6.1 — 8.31</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== MODAL ===================== -->
+    <div class="modal" role="dialog" aria-modal="true">
+        <div class="up">
+            <button class="modal-x" aria-label="닫기">✕</button>
+            <div class="modal-fish" aria-hidden="true">🐠</div>
+            <h2>특별 전시 개막 안내</h2>
+            <p>2026 여름 특별전 <strong>"빛나는 심해"</strong>가<br>
+            6월 1일(토)부터 8월 31일(일)까지 열립니다.<br><br>
+            발광 해양생물 87종과 함께하는<br>세상에 없던 심해 탐험을 경험하세요.</p>
+            <a href="#" class="modal-cta">지금 예매하기</a>
+            <button class="btn">닫 기</button>
+        </div>
+    </div>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#"><img src="images/logo.png" alt="애나이더 아쿠아리움" class="footer-logo"></a>
+                    <p class="footer-tagline">해양생명과학의 새 경계</p>
+                </div>
+                <nav class="footer-nav">
+                    <div class="fnav-col">
+                        <h5>전시관</h5>
+                        <a href="#">심해 탐험관</a>
+                        <a href="#">해파리 홀</a>
+                        <a href="#">생명공학관</a>
+                        <a href="#">산호초 정원</a>
+                    </div>
+                    <div class="fnav-col">
+                        <h5>체험</h5>
+                        <a href="#">심해 다이빙</a>
+                        <a href="#">야간 투어</a>
+                        <a href="#">먹이주기 체험</a>
+                        <a href="#">단체 예약</a>
+                    </div>
+                    <div class="fnav-col">
+                        <h5>이용 안내</h5>
+                        <a href="#">관람 시간</a>
+                        <a href="#">오시는 길</a>
+                        <a href="#">공지사항</a>
+                        <a href="#">FAQ</a>
+                    </div>
+                </nav>
+                <div class="footer-contact">
+                    <h5>CONTACT</h5>
+                    <p>서울특별시 마포구 수족관로 100</p>
+                    <p>TEL. 02-000-0000</p>
+                    <p>open@anaidher.kr</p>
+                    <div class="familysite">
+                        <select>
+                            <option value="#">패밀리 사이트</option>
+                            <option value="#">해양수산부</option>
+                            <option value="#">국립해양생물자원관</option>
+                            <option value="#">한국수족관협회</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>COPYRIGHT © 2026 ANAIDHER AQUARIUM. ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script/jquery-1.12.3.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
